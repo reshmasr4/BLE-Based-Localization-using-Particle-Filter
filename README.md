@@ -8,6 +8,7 @@ This repository contains the implementation of a **BLE-based localization system
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Installation](#installation)
+4. [License](#license)
 
 
 ---
@@ -53,4 +54,6 @@ Bluetooth Low Energy (BLE) is widely used for indoor positioning and proximity e
   - `pygame`
   - `pandas`
 
+## License
 
+This project is licensed under the MIT License. See the LICENSE file for details.
