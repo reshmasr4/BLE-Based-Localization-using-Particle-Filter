@@ -257,8 +257,8 @@ def visualize_particles(stage):
 
 
 # Load RSSI and beacon data
-rssi_data = load_rssi_data("C:/MOBI Thesis/Cattle_localization/data/beacon_data_cow3at13_52to13_53.csv")
-beacon_data, beacon_id_to_number = load_beacon_data("C:/MOBI Thesis/Cattle_localization/data/location_beacon.csv")
+rssi_data = load_rssi_data("data/beacon_data_cow3at13_52to13_53.csv")
+beacon_data, beacon_id_to_number = load_beacon_data("data/location_beacon.csv")
 
 # Filter grid points to match loaded RSSI data
 filtered_grid_points = {k: v for k, v in scaled_grid_points.items() if k in rssi_data.keys()}

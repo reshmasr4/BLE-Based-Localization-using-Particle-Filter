@@ -328,8 +328,8 @@ def run_localization_cycle(rssi_data, beacon_data, beacon_id_to_number, interval
 
 
 # Load RSSI and beacon data
-rssi_data = load_rssi_data('C:/MOBI Thesis/Cattle_localization/data/beacon_data_cow3_13pmto13_56pm.csv')
-beacon_data, beacon_id_to_number = load_beacon_data('C:/MOBI Thesis/Cattle_localization/data/location_beacon.csv')
+rssi_data = load_rssi_data('data/beacon_data_cow3_13pmto13_56pm.csv')
+beacon_data, beacon_id_to_number = load_beacon_data('data/location_beacon.csv')
 
 # Run localization simulation with intervals
 run_localization_cycle(rssi_data, beacon_data, beacon_id_to_number, interval=timedelta(minutes=10))

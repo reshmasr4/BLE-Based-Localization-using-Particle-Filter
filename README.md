@@ -37,7 +37,7 @@ Bluetooth Low Energy (BLE) is widely used for indoor positioning and proximity e
 - **Visualization**:
   - Simulation frames for position and proximity evaluation.
 
-- **Hybrid Localization**:
+- **Continuous Localization**:
   - Integration of BLE and LPWAN data for future expansion.
 
 ---
