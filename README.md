@@ -42,8 +42,6 @@ Bluetooth Low Energy (BLE) is widely used for indoor positioning and proximity e
 
 ---
 
----
-
 ## Installation
 
 ### Prerequisites
@@ -53,6 +51,13 @@ Bluetooth Low Energy (BLE) is widely used for indoor positioning and proximity e
   - `matplotlib`
   - `pygame`
   - `pandas`
+ 
+### Running the Localization Simulation
+Run the python script using below in cmd of project directory:
+````
+python file_name.py
+````
+
 
 ## License
 
